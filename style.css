@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(255, 174, 0, 0.5), rgba(255, 255, 0, 0.5));
+    background: linear-gradient(rgba(255, 175, 0, 0.5), rgba(255, 255, 0, 0.5));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -20,6 +20,8 @@ body {
 .flex-container {
     height: 700px;
     display: flex;
+    border: 1px solid transparent;
+    border-radius: 20px;
 }
 
 
@@ -30,4 +32,22 @@ body {
     background-size: 750px;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 10px 10px; 
+}
+
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+
+#top {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 205px;
 }
