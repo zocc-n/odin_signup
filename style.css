@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 174, 0, 0.5), rgba(255, 255, 0, 0.5));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.flex-container {
+    height: 700px;
+    display: flex;
+}
+
+
+#bckg {
+    width: 400px;
+    height: 700px;
+    background-image: url("./img/bckg.jpg");
+    background-size: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
